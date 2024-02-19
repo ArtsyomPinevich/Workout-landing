@@ -1,0 +1,33 @@
+.header {
+    padding-top: 49px;
+    color: var(--primary-text);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color: var(--primary-text);
+}
+
+.header__title_text {
+    text-transform: uppercase;
+    line-height: 19px;
+}
+
+.header__nav_links {
+    display: flex;
+}
+
+.header__nav_link {
+    font-size: 0.75rem;
+    line-height: 15px;
+    margin-left: 20px;
+}
+
+.header__nav_link a {
+    transition: all 0.5s;
+}
+
+.header__nav_link a:hover {
+    color: var(--link);
+}
