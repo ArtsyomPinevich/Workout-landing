@@ -65,3 +65,30 @@
     flex-direction: row-reverse;
     margin-top: 120px;
 }
+
+@media (max-width: 1260px) {
+    .info-section__container {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .info-section__container {
+        margin-left: 0;
+    }
+
+    .reversed {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 870px) {
+    .info-section__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .info-section__img-wrapper {
+        order: -1;
+    }
+}

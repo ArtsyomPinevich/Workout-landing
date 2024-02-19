@@ -48,3 +48,9 @@
     letter-spacing: 0.3px;
     text-align: left;
 }
+
+@media (max-width: 1000px) {
+    .promo {
+        margin-left: 0;
+    }
+}

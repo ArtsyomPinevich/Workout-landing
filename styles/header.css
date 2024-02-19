@@ -31,3 +31,9 @@
 .header__nav_link a:hover {
     color: var(--link);
 }
+
+@media (max-width: 1024px) {
+    .header__nav {
+        display: none;
+    }
+}
