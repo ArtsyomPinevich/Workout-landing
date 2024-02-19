@@ -50,3 +50,22 @@
 .hero__img-wrapper {
     margin-top: 112px;
 }
+
+.advertisment-card {
+    position: absolute;
+}
+
+.ad-one {
+    top: -25px;
+    right: -60px;
+}
+
+.ad-two {
+    left: -123px;
+    bottom: 225px;
+}
+
+.ad-three {
+    right: -127px;
+    bottom: 123px;
+}
